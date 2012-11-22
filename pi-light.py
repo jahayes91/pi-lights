@@ -1,7 +1,7 @@
 import RPi.GPIO as gpio
 
 #Set mode
-gpio.sermode(gpio.BCM)
+gpio.setmode(gpio.BCM)
 
 #Set pins IN
 gpio.setup(17, gpio.IN)
